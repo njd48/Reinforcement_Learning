@@ -137,8 +137,8 @@ if (__name__ == "__main__"):
     print("agent2 greedy a:   ", agent2.greedyA()  )
     print("agent3 greedy a:   ", agent3.greedyA()  )
 
-    plt.plot(bandit.expectedR())
-    plt.show()
+    #plt.plot(bandit.expectedR())
+    #plt.show()
     
     plt.plot( R0 )
     plt.plot( R1 )
